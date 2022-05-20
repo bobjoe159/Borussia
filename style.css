@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  text-decoration: none;
+}
+
+html {
+  background: url('https://images2.alphacoders.com/940/thumb-1920-940500.jpg')
+}
+
+.cabecalho {
+  display: flex;
+  gap: 250px;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 13.5px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(223, 223, 46);
+  transition: 700ms;
+}
+
+.itens-cabecalho {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.button-register {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px 32px;
+  gap: 10px;
+  border-radius: 40px;
+  box-shadow: none;
+  border: none;
+  color: black;
+  font-weight: 700;
+  background-color: rgb(223, 223, 46);
+}
+
+.button-register:hover {
+  position: relative;
+  background-color: rgb(169, 169, 61);
+  color: white;
+  transition: 900ms;
+  cursor: pointer;
+}
+
+nav.cabecalho {
+  padding: 15px;
+  border-bottom: 1px solid rgb(69, 69, 69);
+}
+
+main .imagem-haaland {
+  width: 28vw;
+  margin-top: 5%;
+  margin-right: 30px;
+}
+
+main .main-content {
+  color: white;
+  padding: 25px;
+  margin-left: 15px;
+}
+
+main .itens-main {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 160px;
+  font-weight: 900;
+  justify-content: center;
+  border-bottom: 1px solid rgb(69, 69, 69);
+}
+
+main .videos {
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
+  padding-left: 50px;
+}
+
+main .texto-principal {
+  display: inline;
+  font-size: 40px;
+}
+
+.video-youtube {
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+footer .rodape {
+  margin-top: 10px;
+  background: rgb(223, 223, 46);
+  padding: 15px;
+}
+
+h4 {
+  background-color: rgb(223, 223, 46);
+  display: flex;
+  justify-content: center;
+}
+
+main .texto-haaland {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+  margin-left: 650px;
+  margin-right: 650px;
+  background-color: rgb(223, 223, 46);
+  box-shadow:rgb(17, 17, 17);
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+p .haaland-hover:hover {
+  color: red;
+}
+
+main .texto-haaland p,h2 {
+  background-color: rgb(223, 223, 46);
+  color: black;
+}
